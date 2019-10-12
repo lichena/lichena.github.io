@@ -1,0 +1,22 @@
+{
+  "name": "lichena.github.io",
+  "version": "1.0.0",
+  "description": "A personal website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lichena/lichena.github.io.git"
+  },
+  "author": "lichena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lichena/lichena.github.io/issues"
+  },
+  "homepage": "https://github.com/lichena/lichena.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
